@@ -8,7 +8,7 @@ Editor gratuito de RPGs usando Lazarus e Love2d como engine.
 * **Vinícius Pontin** - *Idéia inicial* - [vpontin](https://github.com/vpontin)
 * **Matheus Garcias** - *Idéia inicial* - [Uberraschung](https://github.com/Uberraschung)
 
-Veja a lista completa [aqui](Team.md)
+Veja a lista completa [aqui](https://github.com/vicoverse/loverpg/graphs/contributors)
 
 ## Licença
 
