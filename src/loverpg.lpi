@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CONFIG>
   <ProjectOptions>
-    <Version Value="10"/>
+    <Version Value="9"/>
     <PathDelim Value="\"/>
     <General>
       <SessionStorage Value="InProjectDir"/>
@@ -41,11 +41,14 @@
               </Win32>
             </Options>
           </Linking>
+          <Other>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
         </CompilerOptions>
       </Item2>
       <Item3 Name="i386-linux">
         <MacroValues Count="1">
-          <Macro1 Name="LCLWidgetType" Value="gtk3"/>
+          <Macro1 Name="LCLWidgetType" Value="gtk2"/>
         </MacroValues>
         <CompilerOptions>
           <Version Value="11"/>
@@ -71,11 +74,14 @@
               </Win32>
             </Options>
           </Linking>
+          <Other>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
         </CompilerOptions>
       </Item3>
       <Item4 Name="x86_64-linux">
         <MacroValues Count="1">
-          <Macro1 Name="LCLWidgetType" Value="gtk3"/>
+          <Macro1 Name="LCLWidgetType" Value="gtk2"/>
         </MacroValues>
         <CompilerOptions>
           <Version Value="11"/>
@@ -98,10 +104,13 @@
               </Win32>
             </Options>
           </Linking>
+          <Other>
+            <CompilerPath Value="$(CompPath)"/>
+          </Other>
         </CompilerOptions>
       </Item4>
       <SharedMatrixOptions Count="1">
-        <Item1 ID="285557848579" Modes="x86_64-linux,i386-linux" Type="IDEMacro" MacroName="LCLWidgetType" Value="gtk3"/>
+        <Item1 ID="285557848579" Modes="x86_64-linux,i386-linux" Type="IDEMacro" MacroName="LCLWidgetType" Value="gtk2"/>
       </SharedMatrixOptions>
     </BuildModes>
     <PublishOptions>
@@ -159,6 +168,9 @@
         </Win32>
       </Options>
     </Linking>
+    <Other>
+      <CompilerPath Value="$(CompPath)"/>
+    </Other>
   </CompilerOptions>
   <Debugging>
     <Exceptions Count="3">
@@ -173,4 +185,4 @@
       </Item3>
     </Exceptions>
   </Debugging>
-</CONFIG>
+</CONFIG>
