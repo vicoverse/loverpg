@@ -1,7 +1,7 @@
 object fPrincipal: TfPrincipal
-  Left = 191
+  Left = 228
   Height = 600
-  Top = 43
+  Top = 64
   Width = 1024
   Caption = 'Sem Título - LoveRPG'
   ClientHeight = 580
@@ -191,13 +191,13 @@ object fPrincipal: TfPrincipal
       ImageIndex = 26
     end
     object ToolButton26: TToolButton
-      Left = 726
+      Left = 730
       Top = 2
       Caption = 'ToolButton26'
       ImageIndex = 25
     end
     object ToolButton27: TToolButton
-      Left = 758
+      Left = 766
       Height = 32
       Top = 2
       Width = 8
@@ -205,31 +205,31 @@ object fPrincipal: TfPrincipal
       Style = tbsSeparator
     end
     object ToolButton28: TToolButton
-      Left = 766
+      Left = 774
       Top = 2
       Caption = 'ToolButton28'
       ImageIndex = 20
     end
     object ToolButton29: TToolButton
-      Left = 798
+      Left = 810
       Top = 2
       Caption = 'ToolButton29'
       ImageIndex = 21
     end
     object ToolButton30: TToolButton
-      Left = 830
+      Left = 846
       Top = 2
       Caption = 'ToolButton30'
       ImageIndex = 22
     end
     object ToolButton31: TToolButton
-      Left = 862
+      Left = 882
       Top = 2
       Caption = 'ToolButton31'
       ImageIndex = 23
     end
     object ToolButton32: TToolButton
-      Left = 894
+      Left = 918
       Height = 32
       Top = 2
       Width = 8
@@ -237,7 +237,7 @@ object fPrincipal: TfPrincipal
       Style = tbsSeparator
     end
     object ToolButton33: TToolButton
-      Left = 902
+      Left = 926
       Top = 2
       Caption = 'ToolButton33'
       ImageIndex = 24
