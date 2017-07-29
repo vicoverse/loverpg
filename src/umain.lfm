@@ -1,0 +1,68 @@
+object fPrincipal: TfPrincipal
+  Left = 343
+  Height = 600
+  Top = 47
+  Width = 800
+  Caption = 'Sem Título - LoveRPG'
+  ClientHeight = 580
+  ClientWidth = 800
+  Menu = mmPrincipal
+  Position = poDesktopCenter
+  LCLVersion = '1.6.4.0'
+  object sbPrincipal: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 557
+    Width = 800
+    Panels = <>
+  end
+  object tbPrincipal: TToolBar
+    Left = 0
+    Height = 26
+    Top = 0
+    Width = 800
+    Caption = 'tbPrincipal'
+    TabOrder = 1
+  end
+  object mmPrincipal: TMainMenu
+    left = 158
+    top = 102
+    object miArquivo: TMenuItem
+      Caption = 'Projeto'
+      object msNovo: TMenuItem
+        Caption = 'Novo Projeto...'
+      end
+      object msAbrir: TMenuItem
+        Caption = 'Abrir Projeto'
+      end
+      object msFechar: TMenuItem
+        Caption = 'Fechar Projeto'
+      end
+      object msSalvar: TMenuItem
+        Caption = 'Salvar Projeto...'
+      end
+      object msSeparador1: TMenuItem
+        Caption = '-'
+      end
+      object msSair: TMenuItem
+        Caption = 'Sair'
+        OnClick = msSairClick
+      end
+    end
+    object miAjuda: TMenuItem
+      Caption = 'Ajuda'
+      object msConteudo: TMenuItem
+        Caption = 'Conteúdo'
+      end
+      object msTutorial: TMenuItem
+        Caption = 'Tutorial'
+      end
+      object msSeparador2: TMenuItem
+        Caption = '-'
+      end
+      object msSobre: TMenuItem
+        Caption = 'Sobre'
+      end
+    end
+  end
+end
